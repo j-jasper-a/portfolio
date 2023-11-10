@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth !important;
+  }
+
+  body {
+    @apply bg-background font-regular text-foreground dark:bg-background-dark dark:text-foreground-dark;
+  }
+
+  a {
+    @apply ring-[#DF7020] focus:outline-none focus:ring-opacity-50 focus-visible:ring-4;
+  }
+
+  button {
+    @apply ring-[#DF7020] focus:outline-none focus:ring-opacity-50 focus-visible:ring-4;
+  }
+}

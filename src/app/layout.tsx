@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Jihan Jasper Al-rashid | Frontend Engineer & UI/UX Designer",
     description:
-      "tJihan Jasper Al-rashid is a frontend engineer and UI/UX designer, specializing in building responsive, accessible, performant, and aesthetically pleasing web applications using React and Figma.",
+      "Jihan Jasper Al-rashid is a frontend engineer and UI/UX designer, specializing in building responsive, accessible, performant, and aesthetically pleasing web applications using React and Figma.",
   },
   twitter: {
     title: "Jihan Jasper Al-rashid | Frontend Engineer & UI/UX Designer",

@@ -16,6 +16,8 @@ const ModeToggle = ({ icon }: Props) => {
 
   useEffect(() => setMounted(true), []);
 
+  if (!mounted) return null;
+
   const toggleTheme = () => {
     if (mounted) {
       setTheme(theme === "light" ? "dark" : "light");

@@ -14,7 +14,6 @@ const ModeToggle = ({ icon }: Props) => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  // Once the component has mounted, set the mounted flag to true
   useEffect(() => setMounted(true), []);
 
   const toggleTheme = () => {

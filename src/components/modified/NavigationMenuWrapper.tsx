@@ -23,10 +23,8 @@ const NavigationMenuWrapper = {
     return (
       <NavigationMenu.Root
         className={`${
-          isBackgroundVisible
-            ? "bg-background shadow dark:bg-background-dark"
-            : "sm:mt-md"
-        }  px-md py-sm fixed left-0 top-0 z-10 w-full transition-all duration-300`}
+          isBackgroundVisible ? "shadow" : "sm:mt-md"
+        } fixed left-0 top-0 z-10 w-full bg-background px-md py-sm transition-all duration-300 dark:bg-background-dark`}
         {...props}
       >
         {children}
@@ -43,7 +41,7 @@ const NavigationMenuWrapper = {
       <NavigationMenu.List
         className={`${
           main && "container mx-auto max-w-screen-xl"
-        } sm:gap-xl gap-md flex items-center justify-between`}
+        } flex items-center justify-between gap-md sm:gap-xl`}
         {...props}
       >
         {children}

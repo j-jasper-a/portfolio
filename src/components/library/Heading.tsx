@@ -59,7 +59,7 @@ const Heading = ({ children, as, ...props }: Props) => {
   if (as === "h1") {
     return (
       <h1
-        className="text-center font-special text-6xl leading-[0.8] sm:text-8xl"
+        className="text-center font-special text-[clamp(3.5rem,8vh,6rem)] leading-[0.8]"
         {...props}
       >
         {children}

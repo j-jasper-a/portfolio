@@ -9,7 +9,7 @@ const Section = ({ id, children }: Props) => {
   return (
     <section
       id={id}
-      className="py-lg gap-lg flex scroll-mt-[4rem] flex-col items-center"
+      className="flex scroll-mt-[4rem] flex-col items-center gap-lg py-lg"
     >
       <div className="w-fit">
         <div className="h-1 w-full rounded bg-background-dark dark:bg-background" />

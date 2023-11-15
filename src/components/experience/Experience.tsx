@@ -1,22 +1,22 @@
 "use client";
 
 import experience from "@/data/experience";
-import Text from "@/components/library/Text";
+import Text from "@/components/common/Text";
 import TabsWrapper from "@/components/modified/TabsWrapper";
 import {
   MdChevronRight as ListIcon,
   MdLocationPin as LocationIcon,
 } from "react-icons/md";
 import { BsFilePdf as PDFIcon } from "react-icons/bs";
-import Section from "../library/Section";
-import Heading from "../library/Heading";
+import Section from "../common/Section";
+import Heading from "../common/Heading";
 import Link from "next/link";
-import { buttonVariants } from "../library/Button";
+import { buttonVariants } from "../common/Button";
 
 const Experience = () => {
   return (
     <Section id="experience">
-      <div className="space-y-lg w-full">
+      <div className="w-full space-y-lg">
         <TabsWrapper.Root defaultValue={experience[0].company}>
           <TabsWrapper.List>
             {experience.map((exp) => (
@@ -48,7 +48,7 @@ const Experience = () => {
                         as="p"
                         size="small"
                         opacity="weak"
-                        className="gap-sm flex items-center"
+                        className="flex items-center gap-sm"
                       >
                         <span>
                           <LocationIcon />
@@ -63,7 +63,7 @@ const Experience = () => {
                         key={point}
                         as="p"
                         size="small"
-                        className="gap-sm flex items-center"
+                        className="flex items-center gap-sm"
                       >
                         <span>
                           <ListIcon />

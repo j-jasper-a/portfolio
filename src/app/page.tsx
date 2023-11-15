@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <Navigation />
-      <main className="px-md container mx-auto max-w-screen-lg">
+      <main className="container mx-auto max-w-screen-lg px-md">
         <Hero />
         <Expertise />
         <Work />

@@ -2,11 +2,11 @@
 
 import links from "@/data/links";
 import ModeToggle from "../ModeToggle";
-import Logo from "../library/Logo";
+import Logo from "../common/Logo";
 import NavigationMenuWrapper from "../modified/NavigationMenuWrapper";
 import { useState, useEffect, useCallback } from "react";
 import { MdMenu as MenuIcon, MdClose as CloseIcon } from "react-icons/md";
-import Button, { buttonVariants } from "../library/Button";
+import Button, { buttonVariants } from "../common/Button";
 import Link from "next/link";
 
 const Navigation = () => {
@@ -67,7 +67,7 @@ const Navigation = () => {
       </NavigationMenuWrapper.List>
       {isMobileMenuOpen && (
         <nav className="absolute left-0 top-0 h-screen w-screen bg-background dark:bg-background-dark">
-          <ul className="gap-md flex h-full w-full flex-col items-center justify-center">
+          <ul className="flex h-full w-full flex-col items-center justify-center gap-md">
             {links.map(({ label, href }) => (
               <li key={href}>
                 <Link

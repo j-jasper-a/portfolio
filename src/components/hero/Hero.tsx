@@ -1,12 +1,12 @@
 import Link from "next/link";
-import Text from "../library/Text";
+import Text from "../common/Text";
 import Graphic from "./Graphic";
-import { buttonVariants } from "../library/Button";
-import Heading from "../library/Heading";
+import { buttonVariants } from "../common/Button";
+import Heading from "../common/Heading";
 
 const Hero = () => {
   return (
-    <div className="gap-lg relative flex h-screen flex-col items-center justify-center">
+    <div className="relative flex h-screen flex-col items-center justify-center gap-lg">
       <Graphic />
       <Heading as="h1">I write code for the future.</Heading>
       <div className="text-center">
@@ -17,7 +17,7 @@ const Hero = () => {
           Frontend Engineer — UI/UX Designer
         </Text>
       </div>
-      <div className="gap-sm flex w-full sm:w-1/2">
+      <div className="flex w-full gap-sm sm:w-1/2">
         <Link
           href={"#work"}
           className={buttonVariants({ variant: "outlined", width: "full" })}

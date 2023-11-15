@@ -1,10 +1,10 @@
-import Text from "../library/Text";
+import Text from "../common/Text";
 import Link from "next/link";
-import { buttonVariants } from "../library/Button";
+import { buttonVariants } from "../common/Button";
 
 const Footer = () => {
   return (
-    <footer className="py-xl px-md bg-background-dark text-foreground-dark">
+    <footer className="bg-background-dark px-md py-xl text-foreground-dark">
       <div className="container mx-auto max-w-screen-lg text-center">
         <Text as="p" size="small" opacity="weak">
           Designed and built by Jihan Jasper Al-rashid.

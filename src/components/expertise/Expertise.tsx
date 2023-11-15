@@ -1,13 +1,13 @@
 import expertise from "@/data/expertise";
-import Section from "../library/Section";
+import Section from "../common/Section";
 import ExpertiseSegment from "./ExpertiseSegment";
 
 const myDevelopmentArray = [
   expertise.html,
   expertise.css,
   expertise.javascript,
-  expertise.react,
   expertise.typescript,
+  expertise.react,
   expertise.nextJs,
   expertise.tailwindCss,
   expertise.radixUi,

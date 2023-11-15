@@ -1,4 +1,4 @@
-import Text from "./library/Text";
+import Text from "./common/Text";
 
 const Greeting = () => {
   const currentHour = new Date().getHours();

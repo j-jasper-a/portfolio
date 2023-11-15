@@ -1,5 +1,5 @@
 import * as Tabs from "@radix-ui/react-tabs";
-import Heading from "../library/Heading";
+import Heading from "../common/Heading";
 
 const TabsWrapper = {
   Root: ({ children, ...props }: Tabs.TabsProps) => {
@@ -32,7 +32,7 @@ const TabsWrapper = {
   Trigger: ({ children, ...props }: Tabs.TabsTriggerProps) => {
     return (
       <Tabs.Trigger
-        className="px-sm py-sm rounded text-sm font-medium data-[state=active]:bg-background-dark data-[state=active]:text-foreground-dark data-[state=inactive]:opacity-70 dark:data-[state=active]:bg-background dark:data-[state=active]:text-foreground"
+        className="rounded px-sm py-sm text-sm font-medium data-[state=active]:bg-background-dark data-[state=active]:text-foreground-dark data-[state=inactive]:opacity-70 dark:data-[state=active]:bg-background dark:data-[state=active]:text-foreground"
         {...props}
       >
         <Heading as="h3" variant="unstyled">

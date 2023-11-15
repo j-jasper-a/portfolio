@@ -1,10 +1,11 @@
 import { WorkType } from "@/data/work";
-import Text from "../library/Text";
+import Text from "../common/Text";
 import { BsGithub as GithubIcon } from "react-icons/bs";
 import { MdOpenInNew as LinkIcon } from "react-icons/md";
 import Link from "next/link";
-import { buttonVariants } from "../library/Button";
-import Heading from "../library/Heading";
+import { buttonVariants } from "../common/Button";
+import Heading from "../common/Heading";
+import IconSVG from "../common/IconSVG";
 
 type Props = {
   work: WorkType;
@@ -24,19 +25,20 @@ const Details = ({ work }: Props) => {
         </Text>
       </div>
       <Text as="p">{description}</Text>
-      <div className="gap-sm flex flex-wrap">
-        {stack.map(({ name, href }) => (
+      <div className="flex flex-wrap gap-md">
+        {stack.map(({ name, href, logo }) => (
           <Link
             key={name}
             href={href}
             target="_blank"
             className={buttonVariants({ variant: "link" })}
           >
+            <IconSVG src={logo} />
             {name}
           </Link>
         ))}
       </div>
-      <div className="gap-sm flex">
+      <div className="flex gap-sm">
         <Link
           href={href.code}
           target="_blank"

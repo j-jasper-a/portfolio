@@ -1,6 +1,6 @@
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import { useState, useCallback, useEffect } from "react";
-import { buttonVariants } from "../library/Button";
+import { buttonVariants } from "../common/Button";
 
 const NavigationMenuWrapper = {
   Root: ({ children, ...props }: NavigationMenu.NavigationMenuProps) => {

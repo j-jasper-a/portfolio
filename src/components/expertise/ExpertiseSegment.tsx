@@ -25,7 +25,7 @@ const ExpertiseSegment = ({ heading, children, expertiseArray }: Props) => {
             href={href}
             className={buttonVariants({ variant: "link" })}
           >
-            <IconSVG src={logo} />
+            {/* <IconSVG src={logo} /> */}
             {name}
           </Link>
         ))}

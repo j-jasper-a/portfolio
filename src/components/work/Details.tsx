@@ -33,7 +33,7 @@ const Details = ({ work }: Props) => {
             target="_blank"
             className={buttonVariants({ variant: "link" })}
           >
-            <IconSVG src={logo} />
+            {/* <IconSVG src={logo} /> */}
             {name}
           </Link>
         ))}

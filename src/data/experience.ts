@@ -15,6 +15,24 @@ export type ExperienceProps = {
 
 const experience = [
   {
+    company: "Freelance",
+    href: "https://www.jaspercode.com/",
+    position: [
+      {
+        title: "Frontend Engineer",
+        employment: "Contractual",
+        location: "Remote",
+        startDate: "Feb 2021",
+        endDate: "Present",
+        summary: [
+          "Develop responsive, scalable, beautiful, and accessible websites",
+          "Build design systems as well as follow design guidelines during development",
+          "Convert ideas to real products through communication and collaboration",
+        ],
+      },
+    ],
+  },
+  {
     company: "Grey Stone International",
     href: "https://www.greystonedhaka.com/",
     position: [
@@ -40,23 +58,6 @@ const experience = [
           "Resolved client issues at all stages of production",
           "Optimized and secured mutually beneficial deals with buyers, suppliers, and factories",
           "Facilitated all communication among stakeholders",
-        ],
-      },
-    ],
-  },
-  {
-    company: "Freelance",
-    href: "https://www.jaspercode.com/",
-    position: [
-      {
-        title: "Frontend Developer",
-        employment: "Contractual",
-        location: "Remote",
-        startDate: "2020",
-        endDate: "Present",
-        summary: [
-          "Offer React-based frontend development services to clients",
-          "Provide UI/UX designs for web applications",
         ],
       },
     ],

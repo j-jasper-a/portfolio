@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Graphic = () => {
   return (
-    <div className="relative flex max-w-[80vw] flex-col items-center justify-center sm:max-h-[35vh] sm:min-h-[15rem] sm:w-fit">
+    <div className="relative w-[clamp(18rem,35vw,20rem)]">
       <Image
         src="/assets/images/hero/graphic2.webp"
         alt="Hero Graphic"

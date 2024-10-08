@@ -11,10 +11,10 @@ const Hero = () => {
       <Heading as="h1">I write code for the future.</Heading>
       <div className="text-center">
         <Text as="p" weight="bold" size="large">
-          Jihan Jasper Al-rashid
+          Jihan Jasper Al Rashid
         </Text>
         <Text as="p" opacity="weak">
-          Frontend Engineer — UI/UX Designer
+          Software Engineer
         </Text>
       </div>
       <div className="flex w-full gap-sm sm:w-1/2">

@@ -79,7 +79,7 @@ const Experience = () => {
         </TabsWrapper.Root>
       </div>
       <Link
-        href="/assets/jihan-jasper-al-rashid_resume.pdf"
+        href="/assets/jihan_jasper_al_rashid_resume.pdf"
         target="_blank"
         className={buttonVariants({ variant: "outlined" })}
       >

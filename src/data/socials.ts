@@ -5,7 +5,7 @@ export const socials = {
   },
   email: {
     name: "Email",
-    info: "contact@jaspercode.com",
+    info: "j.jasper.a@gmail.com",
   },
   github: {
     name: "Github",

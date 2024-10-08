@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-background-dark px-md py-xl text-foreground-dark">
       <div className="container mx-auto max-w-screen-lg text-center">
         <Text as="p" size="small" opacity="weak">
-          Designed and built by Jihan Jasper Al-rashid.
+          Designed and built by Jihan Jasper Al Rashid.
         </Text>
         <Text as="p" size="small" opacity="weak">
           Copyright © 2023. All rights reserved.
@@ -23,7 +23,7 @@ const Footer = () => {
           </Link>{" "}
           and modified and animated by{" "}
           <Link href="/" className={buttonVariants({ variant: "link" })}>
-            Jihan Jasper Al-rashid
+            Jihan Jasper Al Rashid
           </Link>
           {"."}
         </Text>

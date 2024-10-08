@@ -15,19 +15,19 @@ export type ExperienceProps = {
 
 const experience = [
   {
-    company: "Freelance",
-    href: "https://www.jaspercode.com/",
+    company: "Canvas Developers",
+    href: "https://www.linkedin.com/company/canvasdevs/",
     position: [
       {
-        title: "Frontend Engineer",
-        employment: "Contractual",
+        title: "Senior Software Engineer",
+        employment: "Full-time",
         location: "Remote",
-        startDate: "Feb 2021",
+        startDate: "Jun 2024",
         endDate: "Present",
         summary: [
-          "Develop responsive, scalable, beautiful, and accessible websites",
-          "Build design systems as well as follow design guidelines during development",
-          "Convert ideas to real products through communication and collaboration",
+          "Led the development of a multi-tenant sports management SaaS platform for international users, optimizing performance and scalability.",
+          "Developed a centralized REST API to manage authentication, database operations, and third-party API integrations, enhancing system efficiency.",
+          "Built an intuitive, custom admin panel to streamline administrative operations, reducing manual processes and improving overall management.",
         ],
       },
     ],
@@ -37,60 +37,27 @@ const experience = [
     href: "https://www.greystonedhaka.com/",
     position: [
       {
-        title: "Senior Operations Manager",
+        title: "Software Engineer",
+        employment: "Full-time",
+        location: "Dhaka, Bangladesh",
+        startDate: "Mar 2022",
+        endDate: "May 2024",
+        summary: [
+          "Developed the landing page and dashboard for an international fintech startup, contributing to a successful launch.",
+          "Refactored an international mid-scale ad optimization company's website for mobile responsiveness and enhanced performance.",
+          "Integrated third-party APIs for an international client to improve site functionality and user experience.",
+        ],
+      },
+      {
+        title: "Technical Operations Manager",
         employment: "Full-time",
         location: "Dhaka, Bangladesh",
         startDate: "Jan 2019",
-        endDate: "Present",
+        endDate: "Feb 2022",
         summary: [
-          "Build and maintain the business website and email servers",
-          "Facilitate sourcing and procurement of raw material and supervise its distribution",
-          "Develop operational and risk management strategies",
-        ],
-      },
-      {
-        title: "Merchandiser",
-        employment: "Full-time",
-        location: "Dhaka, Bangladesh",
-        startDate: "Aug 2014",
-        endDate: "Dec 2018",
-        summary: [
-          "Resolved client issues at all stages of production",
-          "Optimized and secured mutually beneficial deals with buyers, suppliers, and factories",
-          "Facilitated all communication among stakeholders",
-        ],
-      },
-    ],
-  },
-  {
-    company: "Music",
-    position: [
-      {
-        title: "Lead Vocalist",
-        employment: "Self-employed",
-        location: "Dhaka, Bangladesh",
-        startDate: "2005",
-        endDate: "Present",
-        summary: [
-          "Performed solo and as a lead vocalist of multiple bands in many high-profile venues across Dhaka and on national tours",
-        ],
-      },
-      {
-        title: "Audio Engineer",
-        employment: "Self-employed",
-        location: "Dhaka, Bangladesh",
-        startDate: "2005",
-        endDate: "Present",
-        summary: ["Mixed and mastered multiple successful musical albums"],
-      },
-      {
-        title: "Music Producer",
-        employment: "Self-employed",
-        location: "Dhaka, Bangladesh",
-        startDate: "2005",
-        endDate: "Present",
-        summary: [
-          "Composed, arranged, and produced multiple successful musical acts",
+          "Managed the company’s email server and website, ensuring reliable communication and a smooth online presence.",
+          "Monitored and resolved technical issues, maintaining optimal system performance and minimizing downtime.",
+          "Facilitated communication with buyers and suppliers, ensuring smooth coordination for orders and shipments.",
         ],
       },
     ],

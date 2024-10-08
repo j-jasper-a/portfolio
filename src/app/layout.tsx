@@ -17,9 +17,8 @@ const fontSpecial = Special({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.jaspercode.com/"),
-  title: "Jihan Jasper Al-rashid | Frontend Engineer & UI/UX Designer",
-  description:
-    "Jihan Jasper Al-rashid is a frontend engineer and UI/UX designer, specializing in building responsive, accessible, performant, and aesthetically pleasing web applications using React and Figma.",
+  title: "Jihan Jasper Al Rashid | Software Engineer",
+  description: "Software Engineer — TypeScript, Next.js, Express",
   keywords: [
     "React",
     "Next.js",
@@ -41,19 +40,17 @@ export const metadata: Metadata = {
     "Portfolio",
   ],
   authors: [
-    { name: "Jihan Jasper Al-rashid", url: "https://www.jaspercode.com/" },
+    { name: "Jihan Jasper Al Rashid", url: "https://www.jaspercode.com/" },
   ],
-  creator: "Jihan Jasper Al-rashid",
-  publisher: "Jihan Jasper Al-rashid",
+  creator: "Jihan Jasper Al Rashid",
+  publisher: "Jihan Jasper Al Rashid",
   openGraph: {
-    title: "Jihan Jasper Al-rashid | Frontend Engineer & UI/UX Designer",
-    description:
-      "Jihan Jasper Al-rashid is a frontend engineer and UI/UX designer, specializing in building responsive, accessible, performant, and aesthetically pleasing web applications using React and Figma.",
+    title: "Jihan Jasper Al Rashid | Software Engineer",
+    description: "Software Engineer — TypeScript, Next.js, Express",
   },
   twitter: {
-    title: "Jihan Jasper Al-rashid | Frontend Engineer & UI/UX Designer",
-    description:
-      "Jihan Jasper Al-rashid is a frontend engineer and UI/UX designer, specializing in building responsive, accessible, performant, and aesthetically pleasing web applications using React and Figma.",
+    title: "Jihan Jasper Al Rashid | Software Engineer",
+    description: "Software Engineer — TypeScript, Next.js, Express",
   },
 };
 

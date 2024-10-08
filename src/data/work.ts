@@ -58,7 +58,7 @@ const work: WorkType[] = [
     ],
   },
   {
-    name: "Jihan Jasper Al-rashid",
+    name: "Jihan Jasper Al Rashid",
     websiteType: "Portfolio",
     description:
       "A utilitarian but tasteful portfolio. I built my own design system on the foundation of Radix primitives. I mean, you're on this website right now. I hope you like what I've done with the place.",
